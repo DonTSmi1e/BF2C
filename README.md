@@ -17,10 +17,10 @@ python bfc.py program.b -d
 
 ## Usage as module
 ```python
-import bfc
+from bfc import bf2c
 
 bf_code = "+>+>->-><<<<"
-c_code = bfc(bf_code)
+c_code = bf2c(bf_code)
 
 print(c_code)
 ```
